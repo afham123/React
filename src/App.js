@@ -70,5 +70,4 @@ function App() {
     );
 }
 
-// TO get the list back when we clear the search box item, the lists should be deleting.
 export default App;

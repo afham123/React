@@ -1,0 +1,2 @@
+1. TO get the list back when we clear the search box item, the lists should be deleting.
+2. TO create a culculator with all the functions present in a basic calculator with the healp of react javascript.
