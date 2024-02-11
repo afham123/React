@@ -19,6 +19,7 @@ export const Component = ({ handleSubmit, handleDelete, handleCheck, list, setLi
                     {
                         list.map((elem) => {
                             return <LineIem
+                                key={elem.id}
                                 elem={elem}
                                 handleSubmit={handleSubmit}
                                 handleDelete={handleDelete}

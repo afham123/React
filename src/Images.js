@@ -1,10 +1,10 @@
 import React from 'react';
 import { Card } from './Card';
 
-export const Images = ({ component }) => {
+export const Images = ({ list }) => {
     return (
         <div>
-            {component.map((elem) => <Card key={elem} />)}
+            {list.map((elem) => <Card key={elem.id} elem={elem} />)}
         </div>
     )
 }
