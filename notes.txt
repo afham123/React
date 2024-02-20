@@ -1,0 +1,24 @@
+command to start the json server at port 
+npx json-server -p 35000 ./db.json
+
+
+you go restorant order a food -> doing a api call for the data
+food -> data
+kitchen -> server
+waiter -> api (for ex. http://localhost:35000/items)
+table -> browser
+cutomer -> client
+
+
+Functions are of two in terms of asyncronus.
+i. async Functions -> converstation with friend. -> compiler waiting for a process to be completed if we have added await.
+ii. non-async function  -> converstation with one of your enemy.  ->  compiler never waits foe a process to be completed. It goes on executing the next line without waiting for the previous process to be completed.
+
+
+async function fetchData () {
+    data = await fetchFrom(server)
+    print(data)
+}
+
+
+self invoking function -> A function that calls itself is called a self invoking function.

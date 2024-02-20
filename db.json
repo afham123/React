@@ -1,0 +1,24 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "label": "Mango",
+            "disabled": true
+        },
+        {
+            "id": 2,
+            "label": "Apple",
+            "disabled": false
+        },
+        {
+            "id": 3,
+            "label": "guava",
+            "disabled": true
+        },
+        {
+            "id": 4,
+            "label": "PineApple",
+            "disabled": false
+        }
+    ]
+}
